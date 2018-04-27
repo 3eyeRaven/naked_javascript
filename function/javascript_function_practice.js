@@ -6,3 +6,11 @@ function curve(arr, amount) {
 	}
 }
 
+var vehicles = ["Cars", "Trucks", "Vans", "Motorcycles"]
+
+var transportation = []
+
+for items in vehicles(){
+	transportation.push(items)
+}
+console.log(transportation);

@@ -1,0 +1,29 @@
+> var knowHow = 'citizen'
+undefined
+> var person = {
+... name: 'Felipe Lobos',
+... age: 48,
+... [knowHow]: {
+..... years: 'Family business, since he could walk and talk',
+..... hobbies: ['water  painting', 'manages team', 'dope dealer', 'protects interests', 'acquires priceless art', 'travels back and forth from Mexico and New York City', 'protective brother', 'ruthless when necessary', 'businessman', 'lives lavish lifestyle']
+..... }
+... }
+undefined
+> person.citizen
+{ years: 'Family business, since he could walk and talk',
+  hobbies: 
+   [ 'water  painting',
+     'manages team',
+     'dope dealer',
+     'protects interests',
+     'acquires priceless art',
+     'travels back and forth from Mexico and New York City',
+     'protective brother',
+     'ruthless when necessary',
+     'businessman',
+     'lives lavish lifestyle' ] }
+> person.age
+48
+> person.name
+'Felipe Lobos'
+
